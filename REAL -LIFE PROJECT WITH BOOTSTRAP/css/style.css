@@ -1,0 +1,571 @@
+
+/* =======================================================
+   styling navbar starts here
+==================================================== */
+
+
+nav{
+  background: rgba(28, 30, 83, 1);
+  padding: 30px 0px !important; 
+}
+.nav-link{
+  color: #bbbbcb;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16PX;
+
+}
+.nav-link:hover{
+  color: red;
+}
+
+.navbar-button{
+  background: transparent;
+  text-decoration: none;
+  padding: 16px 46px;
+  border-radius: 40px;
+  color: #ffffff;
+  border: 1px solid white;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+
+}
+.navbar-button:hover{
+  background: gold
+  
+}
+.navbar-nav{
+  column-gap: 20px;
+  padding-right: 48px;
+}
+/* ==================================================
+   styling navbar starts here
+========================================================================= */
+
+
+/* =======================================================
+   styling banner starts here
+==================================================== */
+
+.banner{
+  background: rgba(28, 30, 83, 1);
+  padding: 200px 0px
+  ;
+}
+.banner h2{
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 72px;
+}
+
+.banner p{
+  color: rgba(255, 255, 255, 1);
+  font: 1em sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+ line-height: 28px;
+ width: 500px;
+padding-top: 17px;
+padding-bottom: 40px;
+}
+.banner .banner-button{
+  background: #fcd980;
+  text-decoration: none;
+  padding: 16px 56px;
+  border-radius: 40px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+ transition: .4s;
+
+}
+
+.banner .banner-button2{
+  text-decoration: none;
+  padding: 16px 56px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+.banner .banner-button:hover{
+  background: gold;
+}
+
+/* ==================================================
+   styling banner starts here
+========================================================================= */
+
+
+/* ==================================================
+   styling work part starts here
+========================================================================= */
+.work-part{
+  padding: 150px 0px;
+  background: rgb(255, 242, 167);
+}
+.work-part h2{
+ font-size: 50px;
+ font-family: "Poppins", sans-serif;
+ font-weight: 600;
+ color: #282938;
+}
+.work-part p{
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #282938;
+  width: 305px;
+  padding: 16px 0px;
+ 
+}
+
+.work-part a{
+text-decoration: none;
+color: blue;
+font-size: 20px;
+font-weight: 600;
+font-family: "Poppins", sans-serif;
+
+}
+
+.work-part .card{
+  width: 50%;
+  background: transparent;
+  border: none;
+}
+ .work-part .box{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 50px;
+}
+.work-part .card img{
+  width: 20%;
+}
+.work-part .box h2{
+  font-size: 42px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #282938;
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+.work-part .box p{
+  color: #282938;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  width: 205px;
+}
+
+
+/* ==================================================
+   styling work part ends  here
+========================================================================= */
+
+
+/* ==================================================
+   styling project part satrts  here
+========================================================================= */
+.project{
+  padding: 150px 0px;
+}
+.project .box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.project h1{
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.project p{
+margin-top: 17px;
+font-size: 20px;
+font-family: "Poppins", sans-serif;
+font-weight: 900;
+}
+.project i{
+  margin-left: 13px;
+}
+.project img{
+  width: 100%;
+}
+.project .img-6-7{
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.project .imgtwo{
+  margin-left: 9px;
+}
+.project .img-positioning{
+  position: relative;
+  overflow: hidden;
+}
+.project .over-section{
+  width: 50%;
+  height: 100%; 
+  background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+  position: absolute;
+  top: 0;
+  left: -52%;
+  transition: 1s;
+  padding-top: 312px;
+  padding-left: 40px;
+  padding-right: 30px;
+}
+.project .img-positioning:hover .over-section{
+  left: 0;
+}
+
+.project .over-section h2{
+font-size: 25px;
+color: white;
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+}
+
+
+
+.project .over-section p{
+  font-size: 16px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  padding: 21px 0px;
+  }
+  
+.project .over-section a{
+  font-size: 21px;
+  color:  gold;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  }
+  
+.project .over-section2{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+  position: absolute;
+  bottom: 0;
+  right: -100%;
+  transition: 1s;
+  padding-top: 120px;
+  padding-left: 50px;
+  padding-right: 30px;
+}
+.project .img-positioning2{
+  position: relative;
+  overflow: hidden;
+
+
+}
+.project .img-positioning2:hover .over-section2{
+  right: 0;
+}
+
+.project .img-positioning2 .over-section2 h1{
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  padding-top: 25px;
+}
+
+
+.project .img-positioning2 .over-section2 a{
+  font-size: 21x;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: gold;
+  text-decoration: none;
+}
+/* ==================================================
+   styling project part ends  here
+========================================================================= */
+
+/* ==================================================
+   styling design part starts here
+========================================================================= */
+.feature-tittle{
+  text-align: center;
+
+ }
+ .design-part{
+  background: rgb(204, 207, 218);
+  padding-top: 180px;
+ padding: 150px;
+ }
+ .feature-tittle p{
+      width: 687px;
+      margin: 0 auto;
+      font-size: 25px;
+      font-weight: 500;
+      font-family: "Poppins", sans-serif;
+      line-height: 100px;
+   }
+   .feature-tittle h1{
+    width: 687px;
+    margin: 0 auto;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    
+   }
+   .design-part .feature-cards{
+    width: 100%;
+    background: white;
+    padding-top: 58px;
+    padding-bottom: 48px;
+    padding-left: 48px; 
+    padding-right: 32px;
+    border-radius: 7px;
+   }
+   
+   .design-part .feature-cards h1{
+   padding-top: 22px;
+   padding-bottom: 12px;
+   color:rgba(40, 41, 56, 1);
+   font-size: 25px;
+   font-weight: 500;
+   font-family: "Poppins", sans-serif;
+   }
+   .design-part .feature-cards
+    color:rgba(40, 41, 56, 1);
+    font-size: 16px;
+   font-weight: 400;
+   font-family: "Poppins", sans-serif;
+   
+   }
+   .design-part .gap{
+    row-gap: 30px;
+
+   }
+/* ==================================================
+   styling design part ends  here
+========================================================================= */
+
+
+ 
+/* ==================================================
+   styling about part starts here
+========================================================================= */
+.about-part{
+  padding: 170px 0px;
+  background: rgba(244, 246, 252, 1);
+
+}
+.about-part h2{
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: rgba(40, 41, 56, 1);
+
+}
+
+.about-part .paragraph-one{
+  padding-top: 16px;
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  color: rgba(40, 41, 56, 1);
+  line-height: 30px;
+
+}
+
+
+.about-part h3{
+  width: 789px;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: rgba(40, 41, 56, 1);
+  line-height: 40px;
+   padding-left: 35px;
+}
+/* 
+
+.about-part img{
+  padding-top: 70px;
+  padding-left: 35px;
+}
+ */
+ .about-part .profile{
+  display: flex;
+  align-items: flex-start;
+  column-gap: 30px;
+  padding-top: 70px;
+}
+
+.about-part .profile h6{
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(40, 41, 56, 1);
+}
+.about-part .profile img{
+  border-radius: 90px;
+}
+
+            
+  .about-part .profile .paragraph-two {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(40, 41, 56, 1);
+}
+/*==========================================
+   styling about part ends  here
+========================================================================= */
+
+
+/*==========================================
+   styling FAQ part startshere
+========================================================================= */
+.faq{
+  padding-top: 128PX;
+  padding-bottom: 160px;
+  background: rgb(255, 255, 255);
+
+}
+.faq .faq-part1 .a-faq{
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: blue;
+  line-height: 40px;
+}
+.faq .faq-part1 i{
+  padding-left: 15px;
+}
+
+.faq .faq-part1 h1{
+  font-size: 58px;
+  row-gap: 100px;
+}
+ .faq .we{
+  padding-left: 60px;
+
+
+
+}
+.accordion-header .numbers{
+  padding-right: 40px;
+  color: blue;
+  font-size: 20px;
+}
+.accordion-button{
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: rgba(40, 41, 56, 1);
+  }
+
+.accordion-button.collapsed{
+  background-color: white !important;
+  color: black !important;
+
+}
+.accordion-button{
+  background-color: blue !important;
+  color: #ffffff !important;
+}
+.accordion-item{
+  border: 0px !important;
+}
+.accordion-body{
+  border: 2.3px solid black;
+  padding-left: 100px;
+  padding-right: 98px;
+  padding-top: 16px;
+  padding-bottom: 24px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.accordion-button::after{
+  background: white;
+}
+.accordion-button:not(.collapsed)::after{
+  background-image: none;
+}
+/*==========================================
+   styling FAQ part ends  here
+========================================================================= */
+
+
+/*==========================================
+   styling Blog part starts  here
+========================================================================= */
+.blog-part .card{
+  padding: 100px 0px;
+  
+}
+.blog-part h2{
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: rgba(40, 41, 56, 1);
+}
+
+.blog-part .card{
+  width: 100% !important;
+}
+.card{
+  border: 0px;
+
+}
+.card-body .blog-part{
+  padding: 0 !important;
+}
+
+
+.blog-part .card-text1{
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: rgb(40, 41, 56, 1);
+  padding-top: 16px;
+  padding-bottom: 25px;
+}
+
+.blog-part .card-text2{
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: rgb(40, 41, 56, 1);
+  padding-top: 16px;
+  padding-bottom: 20px;
+
+}
+
+ .blog-part .card-title{
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  line-height: 36px;
+  color: rgb(40, 41, 56, 1);
+
+
+ }
+ .blog-part .read-button{
+  text-decoration: none;
+  color: blue;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+ }
+ .blog-part i{
+  padding-left: 30px;
+ }
+
+/*==========================================
+   styling Blog part ends  here
+========================================================================= */
+
